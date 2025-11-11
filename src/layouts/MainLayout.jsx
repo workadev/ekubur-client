@@ -8,9 +8,7 @@ function MainLayout() {
     <div className="flex flex-col min-h-screen">
       <Hotline />
       <Navbar />
-      {/* <main className="flex-grow"> */}
-        <Outlet />
-      {/* </main> */}
+      <Outlet />
       <Footer />
     </div>
   );
