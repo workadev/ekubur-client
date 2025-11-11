@@ -1,27 +1,28 @@
 import { Link } from "react-router-dom";
+import ekuburLogo from "../assets/images/ekubur-logo.svg";
+import menuLine from "../assets/images/icons/menu-line.svg";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-6 py-4 bg-white shadow">
-      <h1 className="text-xl font-bold text-blue-600">E-Kubur</h1>
+    <nav className="navbar flex justify-between items-center py-3 px-4 md:px-16 md:py-6 bg-white shadow">
+      <img src={ekuburLogo} className="h-[68px]" />
 
       <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
         <li>
-          <Link to={"/feature"} className="hover:text-blue-600">
+          <Link to={"/feature"} className="hover:text-[#A68A64]">
             Features
           </Link>
         </li>
         <li>
-          <Link to={"/contact"} className="hover:text-blue-600">
+          <Link to={"/contact"} className="hover:text-[#A68A64]">
             Contact
           </Link>
         </li>
       </ul>
 
-      <button className="md:hidden p-2 rounded hover:bg-gray-100">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
+      <button className="md:hidden flex items-center p-2 text-[#A68A64] text-[13px] md:text-[17px]">
+        Menu
+        <img src={menuLine} className="h-[14px] md:h-9 ml-1" />
       </button>
     </nav>
   );

@@ -1,1 +1,30 @@
 @import "tailwindcss";
+@import "../fonts/styles.css";
+
+@theme {
+  --font-CormorantGaramond: "CormorantGaramond", sans-serif; 
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  box-shadow: 0px 2px 3px 0px #0000004D;
+}
+
+.footer {
+  background: #725C41;
+}
+
+.footer-top {
+  background: #F4F1DE;
+}
+
+button {
+  cursor: pointer;
+}
+
+.shadow-become {
+  box-shadow: 0px 2px 6px 0px #262B4324;
+}

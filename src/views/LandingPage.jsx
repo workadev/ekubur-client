@@ -1,7 +1,11 @@
+import SectionJoin from "../components/SectionJoin";
+import SectionBanner from "../components/SectionBanner";
+
 function LandingPage() {
   return (
     <div>
-      landing page
+      <SectionBanner />
+      <SectionJoin />
     </div>
   );
 }
