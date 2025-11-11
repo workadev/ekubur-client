@@ -20,7 +20,7 @@ function Navbar() {
         </li>
       </ul>
 
-      <button className="md:hidden flex items-center p-2 text-[#A68A64] text-[13px] md:text-[17px]">
+      <button className="md:hidden flex items-center p-2 text-[#A68A64] text-[13px] md:text-[17px] font-medium">
         Menu
         <img src={menuLine} className="h-[14px] md:h-9 ml-1" />
       </button>
