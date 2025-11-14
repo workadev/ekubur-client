@@ -3,12 +3,15 @@ import arrowLight from "../assets/images/icons/arrow-right-line.svg";
 
 const slides = [
   {
+    title: "photo1",
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80"
   },
   {
+    title: "photo2",
     image: "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?auto=format&fit=crop&w=1600&q=80"
   },
   {
+    title: "photo3",
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80"
   },
 ];
@@ -59,7 +62,7 @@ function SectionBanner() {
             A serene place where every soul finds its way back to the Creator
           </p>
           <button className="px-[26px] flex py-2 bg-[#A68A6429] text-[#A68A64] text-[17px] rounded-[10px] transition hover:opacity-90">
-            Arrange Services <img src={arrowLight} className="ml-2" />
+            Arrange Services <img src={arrowLight} alt="arrowLight" className="ml-2" />
           </button>
         </div>
       </div>

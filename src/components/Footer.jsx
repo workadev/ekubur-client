@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="footer-top py-6 md:py-10 px-6 md:px-16">
         <div className="flex justify-center md:justify-start">
-          <img src={ekuburLogo} className="md:h-[68px]" />
+          <img src={ekuburLogo} alt="ekuburLogo" className="md:h-[68px]" />
         </div>
         <div className="flex flex-col md:flex-row flex-wrap pt-8">
           <div className="w-full md:w-1/4 mb-7 md:mb-0 md:pr-12">

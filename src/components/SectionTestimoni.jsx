@@ -80,7 +80,7 @@ function SectionTestimoni() {
             "
           >
             <div className="min-w-10 min-h-10 max-h-10 rounded-lg bg-[#768063] flex items-center justify-center mr-6">
-              <img src={userLine} />
+              <img src={userLine} alt="userLine" />
             </div>
             <div>
               <h3 className="font-semibold text-[#FAF9F6E5]">{item.name}</h3>

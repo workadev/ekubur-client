@@ -29,7 +29,7 @@ function Navbar() {
 
   return (
     <div className="navbar flex justify-between items-center py-3 px-4 md:px-16 md:py-6 bg-white shadow">
-      <img src={ekuburLogo} className="h-[68px]" />
+      <img src={ekuburLogo} alt="ekuburLogo" className="h-[68px]" />
 
       <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
         {
@@ -50,7 +50,7 @@ function Navbar() {
           className="flex items-center p-2 text-[#A68A64] text-[13px] md:text-[17px] font-medium transition-transform duration-300 gap-1"
         >
           <span>Menu</span>
-          <img src={menuLine} className="h-[14px]" />
+          <img src={menuLine} alt="menuLine" className="h-[14px]" />
         </button>
         <div
           ref={menuRef}
