@@ -7,7 +7,7 @@ function SectionJoin() {
       <p className="text-[#FAF9F6E5] text-[15px] pt-3 pb-8 font-light">
         We invite funeral service providers to collaborate in creating comfort and serenity for every family we serve.
       </p>
-      <button className="bg-[#A68A64] py-2 px-[26px] text-white text-[17px] rounded-[10px] shadow-become">
+      <button className="bg-[#A68A64] py-2 px-[26px] text-white text-[17px] rounded-[10px] shadow-become hover:opacity-90">
         Become a Provider
       </button>
     </section>

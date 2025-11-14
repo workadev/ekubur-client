@@ -58,7 +58,7 @@ function SectionBanner() {
           <p className="mb-6 md:mb-15">
             A serene place where every soul finds its way back to the Creator
           </p>
-          <button className="px-[26px] flex py-2 bg-[#A68A6429] text-[#A68A64] text-[17px] rounded-[10px] transition">
+          <button className="px-[26px] flex py-2 bg-[#A68A6429] text-[#A68A64] text-[17px] rounded-[10px] transition hover:opacity-90">
             Arrange Services <img src={arrowLight} className="ml-2" />
           </button>
         </div>
