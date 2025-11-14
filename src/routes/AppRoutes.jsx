@@ -1,9 +1,16 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
 import LandingPage from "../views/LandingPage";
 import NotFound from "../views/NotFound";
+import { useEffect } from "react";
 
 function AppRoutes() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [pathname]);
+
   return (
     <Routes>
       <Route path="/" element={<MainLayout />}>
