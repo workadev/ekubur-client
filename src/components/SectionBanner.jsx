@@ -52,10 +52,10 @@ function SectionBanner() {
       <div className="absolute top-1/2 left-0 md:left-[96px] -translate-y-1/2 backdrop-blur-sm bg-white max-w-[304px] md:max-w-[660px] w-full shadow-lg">
         <div className="relative py-16 px-6 md:px-12 md:py-8 md:max-w-105">
           <div className="h-2 md:h-4 bg-[#7F560F] absolute top-0 left-0 w-full max-w-[155px] md:max-w-[304px]" />
-          <h2 className="text-[46px] font-[CormorantGaramond] text-[#12100EE5] mb-2 font-bold">
+          <h2 className="text-[46px] font-[CormorantGaramond] mb-2 font-bold">
             Returning to the Eternal Peace
           </h2>
-          <p className="text-[#12100EE5] mb-6 md:mb-15">
+          <p className="mb-6 md:mb-15">
             A serene place where every soul finds its way back to the Creator
           </p>
           <button className="px-[26px] flex py-2 bg-[#A68A6429] text-[#A68A64] text-[17px] rounded-[10px] transition">
