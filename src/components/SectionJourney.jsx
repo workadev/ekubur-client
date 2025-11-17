@@ -36,7 +36,7 @@ function SectionJourney() {
   ]
 
   return (
-    <section className="bg-[#A68A64]">
+    <section className="bg-[#E6F3EA]">
       <div className="bg-white py-10 px-6 md:py-24 md:px-24 rounded-t-3xl">
         <h1 className="text-[46px] font-[CormorantGaramond] font-bold text-center md:text-left">
           Services That Accompany the Final Journey
@@ -61,14 +61,14 @@ function SectionJourney() {
                   alt={item.title}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute top-0 bg-[#59473166] w-full h-full" />
+                <div className="absolute top-0 bg-[#0000003D] w-full h-full" />
               </div>
 
               {/* Text Card */}
               <div
                 className={`${
                   item.reverse ? "md:order-1 rounded-b-[20px] md:rounded-r-none md:rounded-l-[20px]" : "rounded-b-[20px] md:rounded-l-none md:rounded-r-[20px]"
-                } bg-[#4A4E41] text-white p-4 md:p-10 w-full md:max-w-[446px]`}
+                } bg-[#0D7330] text-white p-4 md:p-10 w-full md:max-w-[446px]`}
               >
                 <h3 className="text-2xl md:text-[38px] font-bold mb-3 font-[CormorantGaramond] text-[#FAF9F6E5] text-center md:text-left">
                   {item.title}

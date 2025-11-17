@@ -35,7 +35,7 @@ function Navbar() {
         {
           menuItems.map(item => (
             <li>
-              <Link to={"/feature"} className="hover:text-[#A68A64]">
+              <Link to={"/feature"} className="hover:text-[#0D7330]">
                 {item}
               </Link>
             </li>
@@ -47,7 +47,7 @@ function Navbar() {
         <button 
           ref={buttonRef}
           onClick={() => setOpen(!open)}
-          className="flex items-center p-2 text-[#A68A64] text-[13px] md:text-[17px] font-medium transition-transform duration-300 gap-1"
+          className="flex items-center p-2 text-[#0D7330] text-[13px] md:text-[17px] font-medium transition-transform duration-300 gap-1"
         >
           <span>Menu</span>
           <img src={menuLine} alt="menuLine" className="h-[14px]" />
@@ -62,7 +62,7 @@ function Navbar() {
                 key={item}
                 href="#"
                 style={{ animationDelay: `${0.15 * index}s` }}
-                className={`text-[#7a6244] text-sm animate-slideDown min-w-max`}
+                className={`text-[#0D7330] text-sm animate-slideDown min-w-max`}
               >
                 {item}
               </a>

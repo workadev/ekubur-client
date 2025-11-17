@@ -54,14 +54,14 @@ function SectionBanner() {
       {/* Text overlay */}
       <div className="absolute top-1/2 left-0 md:left-[96px] -translate-y-1/2 backdrop-blur-sm bg-white max-w-[304px] md:max-w-[660px] w-full shadow-lg">
         <div className="relative py-16 px-6 md:px-12 md:py-8 md:max-w-105">
-          <div className="h-2 md:h-4 bg-[#7F560F] absolute top-0 left-0 w-full max-w-[155px] md:max-w-[304px]" />
+          <div className="h-2 md:h-4 bg-[#0D7330] absolute top-0 left-0 w-full max-w-[155px] md:max-w-[304px]" />
           <h2 className="text-[46px] font-[CormorantGaramond] mb-2 font-bold">
             Returning to the Eternal Peace
           </h2>
           <p className="mb-6 md:mb-15">
             A serene place where every soul finds its way back to the Creator
           </p>
-          <button className="px-[26px] flex py-2 bg-[#A68A6429] text-[#A68A64] text-[17px] rounded-[10px] transition hover:opacity-90">
+          <button className="px-[26px] flex py-2 bg-[#0D7330] text-white text-[17px] rounded-[10px] transition hover:opacity-90">
             Arrange Services <img src={arrowLight} alt="arrowLight" className="ml-2" />
           </button>
         </div>
@@ -74,7 +74,7 @@ function SectionBanner() {
             key={i}
             onClick={() => goToSlide(i)}
             className={`w-[60px] h-[10px] transition ${
-              i === current ? "bg-[#8C7352]" : "bg-[#D5C4A1]"
+              i === current ? "bg-[#95CFA4]" : "bg-[#0D733061]"
             }`}
           />
         ))}

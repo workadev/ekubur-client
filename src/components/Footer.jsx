@@ -14,7 +14,7 @@ function Footer() {
               <div className="mb-2 pb-3 text-2xl font-[CormorantGaramond] font-bold border-b-1 border-[#725C41]">
                 Ekubur
               </div>
-              <div className="text-[15px] font-extralight">
+              <div className="text-[15px]">
                 Honoring Islamic traditions <br />
                 with dignity and respect <br />
                 in funeral services coordination.
@@ -26,16 +26,16 @@ function Footer() {
               <div className="mb-2 pb-3 text-2xl font-[CormorantGaramond] font-bold border-b-1 border-[#725C41]">
                 Services
               </div>
-              <Link className="text-[15px] mb-2 font-extralight">
+              <Link className="text-[15px] mb-2">
                 Ambulance Transport
               </Link>
-              <Link className="text-[15px] mb-2 font-extralight">
+              <Link className="text-[15px] mb-2">
                 Religious Rites
               </Link>
-              <Link className="text-[15px] mb-2 font-extralight">
+              <Link className="text-[15px] mb-2">
                 Document Management
               </Link>
-              <Link className="text-[15px] font-extralight">
+              <Link className="text-[15px]">
                 Payment Processing
               </Link>
             </div>
@@ -45,16 +45,16 @@ function Footer() {
               <div className="mb-2 pb-3 text-2xl font-[CormorantGaramond] font-bold border-b-1 border-[#725C41]">
                 Support
               </div>
-              <Link className="text-[15px] mb-2 font-extralight">
+              <Link className="text-[15px] mb-2">
                 24/7 Emergency Hotline
               </Link>
-              <Link className="text-[15px] mb-2 font-extralight">
+              <Link className="text-[15px] mb-2">
                 Family Guidance
               </Link>
-              <Link className="text-[15px] mb-2 font-extralight">
+              <Link className="text-[15px] mb-2">
                 Educational Resources
               </Link>
-              <Link className="text-[15px] font-extralight">
+              <Link className="text-[15px]">
                 Provider Network
               </Link>
             </div>
@@ -64,13 +64,13 @@ function Footer() {
               <div className="mb-2 text-2xl font-[CormorantGaramond] font-bold pb-3 border-b-1 border-[#725C41]">
                 Contact
               </div>
-              <a href="tel:+60-XXX-XXXX" className="text-[15px] mb-3 font-extralight">
+              <a href="tel:+60-XXX-XXXX" className="text-[15px] mb-3">
                 +60-XXX-XXXX
               </a>
-              <a href="mailto:support@e-kubur.com" className="text-[15px] mb-3 font-extralight">
+              <a href="mailto:support@e-kubur.com" className="text-[15px] mb-3">
                 support@e-kubur.com
               </a>
-              <div className="text-[15px] font-extralight">
+              <div className="text-[15px]">
                 Kuala Lumpur, Malaysia
               </div>
             </div>

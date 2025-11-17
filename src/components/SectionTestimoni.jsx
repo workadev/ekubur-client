@@ -53,7 +53,7 @@ function SectionTestimoni() {
   }, []);
 
   return (
-    <section className="py-6 md:py-15 bg-[#F4F1DE]">
+    <section className="py-6 md:py-15 bg-[#E6F3EA]">
       <div className="justify-items-center mb-8 px-6">
         <h1 className="font-[CormorantGaramond] font-bold text-[46px] text-center">
           Families Who Trusted Us
@@ -73,21 +73,15 @@ function SectionTestimoni() {
         {testimonials.map((item, index) => (
           <div
             key={index}
-            className="
-              w-full max-w-[390px]
-              bg-[#594731] text-white rounded-2xl p-4 flex-shrink-0
-              snap-start shadow-md flex items-center
-            "
+            className="w-full max-w-[390px] bg-[#B8D4BF] rounded-2xl p-4 flex-shrink-0 snap-start flex items-center"
           >
-            <div className="min-w-10 min-h-10 max-h-10 rounded-lg bg-[#768063] flex items-center justify-center mr-6">
+            <div className="min-w-10 min-h-10 max-h-10 rounded-lg bg-[#8AB997] flex items-center justify-center mr-6">
               <img src={userLine} alt="userLine" />
             </div>
             <div>
-              <h3 className="font-semibold text-[#FAF9F6E5]">{item.name}</h3>
-              <p className="text-sm py-3 text-[#FAF9F6E5]">{item.location}</p>
-              <p className="text-sm text-[#FAF9F6E5]">
-                "{item.message}"
-              </p>
+              <h3 className="font-semibold">{item.name}</h3>
+              <p className="text-sm py-3">{item.location}</p>
+              <p className="text-sm">"{item.message}"</p>
             </div>
           </div>
         ))}
