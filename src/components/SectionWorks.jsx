@@ -53,7 +53,7 @@ export default function HowWeWorks() {
                 "
               >
                 <div className="text-md text-[#084E22] mb-5">{item.title}</div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-between">
                   <p className="text-sm font-bold">{item.desc}</p>
                   <div className="top-5 right-5 opacity-0 group-hover:opacity-100 transition-opacity">
                     <img
