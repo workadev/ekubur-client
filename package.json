@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "staging": "vite build; firebase deploy",
     "production": "vite --mode production"
   },
   "dependencies": {

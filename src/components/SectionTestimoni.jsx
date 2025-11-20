@@ -66,7 +66,7 @@ function SectionTestimoni() {
       <div
         ref={carouselRef}
         className="
-          flex gap-6 overflow-x-auto pb-4
+          flex gap-6 overflow-x-auto pb-4 justify-items-center
           snap-x snap-mandatory scrollbar-hide scroll-smooth
         "
       >

@@ -1,4 +1,4 @@
-import ekuburLogo from "../assets/images/ekubur-logo.svg";
+import ekuburLogo from "../../assets/images/ekubur-logo.svg";
 
 function UserNavbar() {
   return (
