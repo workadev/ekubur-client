@@ -66,7 +66,13 @@ export default function HowWeWorks() {
               </div>
             ))}
           </div>
-          <img src={imageWork} alt="imageWork" className="rounded-xl mb-4 h-[218px] md:h-auto md:mb-0 md:w-[40%] md:max-w-[450px] object-cover" />
+          <img
+            src={imageWork}
+            alt="imageWork"
+            loading="lazy"
+            decoding="async"
+            className="rounded-xl mb-4 h-[218px] md:h-auto md:mb-0 md:w-[40%] md:max-w-[450px] object-cover"
+          />
         </div>
       </div>
     </section>

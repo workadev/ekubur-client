@@ -76,7 +76,7 @@ function SectionTestimoni() {
             className="w-full max-w-[390px] bg-[#B8D4BF] rounded-2xl p-4 flex-shrink-0 snap-start flex items-center"
           >
             <div className="min-w-10 min-h-10 max-h-10 rounded-lg bg-[#8AB997] flex items-center justify-center mr-6">
-              <img src={userLine} alt="userLine" />
+              <img src={userLine} alt="userLine" loading="lazy" decoding="async" />
             </div>
             <div>
               <h3 className="font-semibold">{item.name}</h3>

@@ -4,15 +4,15 @@ import arrowLight from "../assets/images/icons/arrow-right-line.svg";
 const slides = [
   {
     title: "photo1",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80"
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=70"
   },
   {
     title: "photo2",
-    image: "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?auto=format&fit=crop&w=1600&q=80"
+    image: "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?auto=format&fit=crop&w=1200&q=70"
   },
   {
     title: "photo3",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80"
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=70"
   },
 ];
 
@@ -44,6 +44,9 @@ function SectionBanner() {
             <img
               src={slide.image}
               alt={slide.title}
+              loading={index === 0 ? "eager" : "lazy"}
+              fetchPriority={index === 0 ? "high" : "low"}
+              decoding="async"
               className="w-full h-full object-cover md:pl-[161px]"
             />
             <div className="absolute inset-0"></div>
@@ -62,7 +65,7 @@ function SectionBanner() {
             A serene place where every soul finds its way back to the Creator
           </p>
           <button className="px-[26px] flex py-2 bg-[#0D7330] text-white text-[17px] rounded-[10px] transition hover:opacity-90">
-            Arrange Services <img src={arrowLight} alt="arrowLight" className="ml-2" />
+            Arrange Services <img src={arrowLight} alt="arrowLight" loading="lazy" decoding="async" className="ml-2" />
           </button>
         </div>
       </div>

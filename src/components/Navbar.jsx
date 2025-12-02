@@ -32,15 +32,13 @@ function Navbar() {
       <img src={ekuburLogo} alt="ekuburLogo" className="h-[68px]" />
 
       <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
-        {
-          menuItems.map(item => (
-            <li>
-              <Link to={"/feature"} className="hover:text-[#0D7330]">
-                {item}
-              </Link>
-            </li>
-          ))
-        }
+        {menuItems.map((item) => (
+          <li key={item}>
+            <Link to={"/feature"} className="hover:text-[#0D7330]">
+              {item}
+            </Link>
+          </li>
+        ))}
       </ul>
 
       <div className="md:hidden relative">
@@ -50,7 +48,7 @@ function Navbar() {
           className="flex items-center p-2 text-[#0D7330] text-[13px] md:text-[17px] font-medium transition-transform duration-300 gap-1"
         >
           <span>Menu</span>
-          <img src={menuLine} alt="menuLine" className="h-[14px]" />
+          <img src={menuLine} alt="menuLine" loading="lazy" decoding="async" className="h-[14px]" />
         </button>
         <div
           ref={menuRef}

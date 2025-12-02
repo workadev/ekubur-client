@@ -59,6 +59,8 @@ function SectionJourney() {
                 <img
                   src={item.img}
                   alt={item.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-0 bg-[#0000003D] w-full h-full" />

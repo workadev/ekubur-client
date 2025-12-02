@@ -6,40 +6,163 @@ import CheckCircle from "../assets/images/icons/icon-check-circle.svg";
 function SectionGuides() {
   const guides = [
     {
-      title: "Surah Yasin Recitation",
-      desc: "A blessed surah recited for peace and mercy.",
-      highlight:
-        "Recitation that brings tranquility and mercy for the departed soul.",
-      timings: ["After Maghrib", "During illness", "Thursday night"],
+      title: "Procedures and Supplications According to the Sunnah",
+      desc: "Managing a burial is considered fard kifayah",
+      popupTitle: "The process is carried out with dignity and care",
+      highlight: "In Islam, the burial of a deceased Muslim is an act of honor, compassion, and religious duty. The process is carried out with dignity and care, reflecting the belief that every life returns to Allah in peace. Managing a burial is considered fard kifayah—a communal obligation to ensure that a fellow Muslim is laid to rest in the most respectful manner.",
+      card1: {
+        title: "1. The Meaning of Burial in Islam",
+        desc: "Burial (al-dafn) is a deeply symbolic act representing humanity’s return to its original creation. After washing, shrouding, and performing the funeral prayer, the final step is to gently return the body to the earth.",
+        surah: `“From the earth We created you, and into it We will return you, and from it We will bring you out once again.” (Qur’an, Surah Taha: 55)`
+      },
+      titlePrayer: "2. The Proper Steps of the Islamic Burial (According to Sunnah)",
       prayers: [
-        { title: "Surah Yasin", desc: "A central recitation for ease." },
-        { title: "Tasbih (33x)", desc: "Subhānallāh — Glory be to Allah." },
-        { title: "Tahmid (33x)", desc: "Alhamdulillāh — All praise to Allah." },
+        { 
+          title: "Preparing the Grave", 
+          desc: [
+            "The grave should be dug deep enough and protected from disturbances.",
+            "The orientation must be towards the Qibla.",
+            "Both lahad (side niche) and shaqq (middle trench) structures are permissible."
+          ] 
+        },
+        { 
+          title: "Lowering the Body Gently", 
+          desc: [
+            "The deceased is lowered into the grave starting with the head.",
+            "The sunnah is to recite: “Bismillahi wa ‘ala millati Rasulillah.” In the name of Allah and upon the way of the Messenger of Allah."
+          ]
+        },
+        { 
+          title: "Positioning the Body", 
+          desc: [
+            "The body is placed on its right side.",
+            "The face is turned to face the Qibla."
+          ]
+        },
+        { 
+          title: "Covering and Filling the Grave", 
+          desc: [
+            "The grave is closed with wooden boards or stabilizers, then covered with soil gradually.",
+            "It is recommended to place the first three handfuls of soil while saying: “Minha khalaqnakum, wa fiha nu‘idukum, wa minha nukhrijukum taratan ukhra.” From it We created you, to it We will return you, and from it We will resurrect you once again."
+          ]
+        },
+        { 
+          title: "Marking the Grave", 
+          desc: [
+            "A simple marker is placed.",
+            "Islam encourages modesty — no excessive decoration."
+          ]
+        },
       ],
+      sectionQuotes: {
+        title: "3. Supplications During and After Burial",
+        quotes: [
+          {
+            title: "Supplication When Placing the Body Into the Grave",
+            desc: `“Bismillahi wa ‘ala millati Rasulillah.” 
+In the name of Allah and upon the way of the Messenger of Allah.`
+          },
+          {
+            title: "Supplications After Burial",
+            desc: `“Allahummaghfirlahu, warhamhu, wa ‘afihi, wa‘fu ‘anhu.”
+O Allah, forgive him, have mercy on him, grant him safety, and pardon his mistakes.`
+          }
+        ]
+      },
+      footer: "Islamic burial is more than a ritual—it's a final act of love, humility, and remembrance"
     },
     {
-      title: "Do’a for the Deceased",
-      desc: "Supplication asking Allah’s forgiveness and mercy.",
-      highlight:
-        "Focused prayers seeking forgiveness, light, and spaciousness of the grave.",
-      timings: ["After burial", "During visits", "Night prayers"],
-      prayers: [
-        { title: "Allāhumma ighfir lahu", desc: "Ask for forgiveness." },
-        { title: "Allāhumma thabbit", desc: "Pray for firmness in the grave." },
-        { title: "Salawat", desc: "Blessings upon the Prophet ﷺ." },
-      ],
+      title: "How to Cover the Grave with Soil in an Islamic Burial",
+      desc: "This step is carried out gently, humbly, and according to the etiquette taught in the Sunnah.",
+      popupTitle: "Covering the grave with soil is a meaningful and respectful act.",
+      highlight: `After the body has been placed in the grave and covered with wooden planks or the inner grave covering, it is recommended (sunnah) for one of the attendants to begin the burial by taking three handfuls of soil and placing them gently at the head of the deceased while reciting the following phrases:
+
+1. First Handful: “From it We created you.”
+2. Second Handful: “And into it We will return you.”
+3. Third Handful: “And from it We will bring you forth once again.”
+
+This practice is based on the narration of ‘Amr ibn Rabi‘ah, who said: “The Prophet ﷺ performed the funeral prayer for ‘Uthman ibn Maz‘un. After that, he went to his grave and poured soil over it three times.” (Narrated in the books of hadith)`,
+      card1: {
+        title: "Covering the Grave Gently and Forming the Mound",
+        desc: `After placing the first three handfuls of soil, the rest of the grave should be filled slowly and carefully. At the beginning, it is recommended to support the soil with materials such as branches, leaves, or a mat so that the soil settles evenly above the grave. 
+
+The surface of the grave should be raised about one hand-span (approximately ¾ of a foot). This elevation helps distinguish the grave when visiting. The grave should then be leveled across the top, following the example of the Prophet ﷺ. It is reported that the graves of the Prophet ﷺ, Abu Bakr, and ‘Umar were all raised one hand-span and leveled on top.
+
+This guidance is supported by the narration of Abu Hayyaj, from ‘Ali ibn Abi Talib, who said:
+“I am sending you just as the Prophet ﷺ sent me: do not leave any statue without destroying it, and do not leave any elevated grave without leveling it.”
+(Narrated by Muslim)`
+      },
+      card2: {
+        title: "Placing a Simple Grave Marker",
+        desc: `It is sunnah to place a simple stone or wooden marker at the head of the deceased. This follows the narration reported by Ibn Majah from Anas: “The Prophet ﷺ marked the grave of ‘Uthman ibn Maz‘un with a stone.”
+
+The purpose of the marker is simply to identify the grave, not to decorate it.`
+      },
+      sectionQuotes: {
+        title: "Ruling on Writing and Building on Graves",
+        desc: "Writing names or other inscriptions on tombstones is considered disliked (makruh) in Islamic teachings. However, scholars allow simple writing if needed for identification—especially where many graves are alike—since this serves a practical purpose and does not contradict the spirit of humility.",
+        quotes: [
+          {
+            title: "This ruling is based on the hadith of Jarir, who said:",
+            desc: `“The Messenger of Allah ﷺ forbade the plastering of graves, writing on them, or building structures over them.”
+  (Narrated by Ahmad, Muslim, al-Nasa’i, and Abu Dawud)`
+          },
+          {
+            title: "The use of clay or simple materials is also allowed, as mentioned in the narration of Ja‘far ibn Muhammad, from his father:",
+            desc: `“The Prophet ﷺ raised the grave one hand-span above the ground, coated it with clay taken from nearby soil, and placed pebbles on top.”`
+          }
+        ]
+      },
+      sectionBottom: {
+        title: "Sprinkling Water Over the Grave",
+        desc: `After the burial mound is complete, it is sunnah to sprinkle clean, cool water over the grave. The sprinkling should start from the head of the deceased and proceed toward the feet.
+This practice is based on the narration from Jabir ibn ‘Abdillah, who said:
+
+“Water was sprinkled over the grave of the Prophet ﷺ, and the one who performed the sprinkling was Bilal ibn Rabah. He began from the right side of the head down to the feet.”
+(Narrated by al-Bayhaqi)`
+      }
     },
     {
       title: "Do’a for Patience & Strength",
       desc: "Prayer for the grieving family to remain steadfast.",
-      highlight:
-        "Supplications that calm the heart and fortify patience during loss.",
-      timings: ["Moments of grief", "After condolences", "Night reflection"],
-      prayers: [
-        { title: "Innallāha ma’a al-sābirīn", desc: "Reminder of Allah’s support." },
-        { title: "Rabbi ishrah lī", desc: "Expansion of chest and ease." },
-        { title: "Hasbunallāh", desc: "Reliance and trust in Allah." },
-      ],
+      popupTitle: "Strengthening the heart with faith, prayer, and steadfast patience",
+      highlight: "In moments of loss, uncertainty, or hardship, Islam teaches believers to seek patience (ṣabr) and strength (quwwah) through sincere prayer. Patience is not merely enduring difficulties—it is the state of trusting Allah’s wisdom, accepting His decree, and remaining steadfast in the face of trials. Strength, likewise, comes from the heart that relies fully on Allah, the Source of all power and comfort.",
+      card1: {
+        title: "The Essence of Patience in Islam",
+        desc: `Patience is one of the greatest virtues praised in the Qur’an. Allah promises His help and companionship to those who remain steadfast:
+
+“Indeed, Allah is with those who are patient.”
+(Qur’an 2:153)
+
+Through patience, a believer finds peace, clarity, and the ability to continue despite emotional or physical hardship.`
+      },
+      sectionQuotes: {
+        title: "Powerful Do’a for Patience & Strength",
+        desc: "These prayers bring comfort to the heart, reminding the believer that no burden is placed upon them except what they are capable of bearing.",
+        quotes: [
+          {
+            title: "Do’a for Patience in Trials",
+            desc: `“Rabbishrah lī ṣadrī.” 
+“My Lord, expand my chest with calmness and patience.”`
+          },
+          {
+            title: "Do’a for Inner Strength",
+            desc: `“Allahumma inni as’aluka quwwata fid-dīn, 
+wat-thabāta ‘alal-haqq.”
+“O Allah, I ask You for strength in my faith 
+and steadfastness upon truth.”`
+          },
+          {
+            title: "Do’a for Peace During Hardship",
+            desc: `“Hasbunallahu wa ni‘mal wakīl.”
+“Allah is sufficient for us, and He is the best disposer of affairs.”`
+          }
+        ]
+      },
+      sectionBottom: {
+        title: "A Reminder of Hope",
+        desc: "Hardships are not signs of weakness, but opportunities for drawing closer to Allah. Every tear, every struggle, and every whispered du’a is heard. With patience and sincere prayer, Allah grants strength that rises from within—quiet yet powerful."
+      }
     },
     {
       title: "Tahlil & Remembrance",
@@ -152,6 +275,8 @@ function SectionGuides() {
                       <img
                         src={ArrowUpRight}
                         alt="ArrowUpRight"
+                        loading="lazy"
+                        decoding="async"
                         className="min-w-5 min-h-5"
                       />
                     </div>
@@ -163,6 +288,8 @@ function SectionGuides() {
           <img
             src={imgGuides}
             alt="imgGuides"
+            loading="lazy"
+            decoding="async"
             className="
               rounded-xl
               mb-4
@@ -223,73 +350,190 @@ function SectionGuides() {
                   {selectedGuide.title}
                 </p>
                 <h2 className="text-2xl md:text-[46px] md:leading-[68px] font-[CormorantGaramond] font-bold text-[#12100E] leading-[38px]">
-                  A gathering where family recites dhikr, du’a, and praises to Allah as an act of remembrance.
+                  {selectedGuide.popupTitle}
                 </h2>
-                <p className="text-sm mt-3 md:text-base text-[#12100EB2] leading-relaxed">
+                <p className="text-sm mt-3 md:text-base text-[#12100EB2] leading-relaxed" style={{ whiteSpace: "pre-line" }}>
                   {selectedGuide.highlight}
                 </p>
               </div>
 
               <div className="bg-white rounded-xl p-3 md:p-6 space-y-3 mb-6">
-                <p className="font-bold text-lg md:text-2xl font-[CormorantGaramond] text-[#12100EE5]">When Tahlil Is Recited (Timing Guide)</p>
-                <div className="flex flex-wrap gap-4">
-                  {selectedGuide.timings?.map((time, i) => (
-                    <span
-                      key={`${time}-${i}`}
-                      className="
-                        inline-flex
-                        items-center
-                        px-3
-                        py-[6px]
-                        border
-                        border-[#0D7330]
-                        text-[#0D7330]
-                        rounded-full
-                        md:text-sm
-                        bg-white
-                        font-semibold
-                      "
-                    >
-                      {time}
-                    </span>
-                  ))}
-                </div>
+                {
+                  selectedGuide.card1 && (
+                    <>
+                      <p className="font-bold text-lg md:text-2xl font-[CormorantGaramond] text-[#12100EE5]">
+                        {selectedGuide.card1.title}
+                      </p>
+                      <p className="text-base text-[#12100EE5]" style={{ whiteSpace: "pre-line" }}>
+                        {selectedGuide.card1.desc}
+                      </p>
+                      {
+                        selectedGuide.card1.surah && <p className="text-base text-[#12100EE5] mt-6" style={{ whiteSpace: "pre-line" }}>
+                          {selectedGuide.card1.surah}
+                        </p>
+                      }
+                    </>
+                  )
+                }
+                {
+                  selectedGuide.timings && (
+                    <>
+                      <p className="font-bold text-lg md:text-2xl font-[CormorantGaramond] text-[#12100EE5]">
+                        When Tahlil Is Recited (Timing Guide)
+                      </p>
+                      <div className="flex flex-wrap gap-4">
+                        {selectedGuide.timings?.map((time, i) => (
+                          <span
+                            key={`${time}-${i}`}
+                            className="
+                              inline-flex
+                              items-center
+                              px-3
+                              py-[6px]
+                              border
+                              border-[#0D7330]
+                              text-[#0D7330]
+                              rounded-full
+                              md:text-sm
+                              bg-white
+                              font-semibold
+                            "
+                          >
+                            {time}
+                          </span>
+                        ))}
+                      </div>
+                    </>
+                  )
+                }
               </div>
 
-              <div className="bg-white rounded-xl p-4 md:p-6 space-y-4 mb-6">
-                <p className="font-bold text-2xl font-[CormorantGaramond] text-[#12100EE5] mb-3">Full List of Dhikr & Prayers</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
-                  {selectedGuide.prayers?.map((prayer, i) => (
-                    <div
-                      key={`${prayer.title}-${i}`}
-                      className="
-                        flex
-                        items-start
-                        gap-2
-                        pb-3
-                        pt-4
-                        px-3
-                        md:pt-6
-                        md:pb-7
-                        md:px-6
-                        bg-white
-                        border
-                        border-[#0D7330]
-                        rounded-[10px]
+              {
+                selectedGuide.card2 && <div className="bg-white rounded-xl p-3 md:p-6 space-y-3 mb-6">
+                  <p className="font-bold text-lg md:text-2xl font-[CormorantGaramond] text-[#12100EE5]">
+                    {selectedGuide.card2.title}
+                  </p>
+                  <p className="text-base text-[#12100EE5]" style={{ whiteSpace: "pre-line" }}>
+                    {selectedGuide.card2.desc}
+                  </p>
+                </div>
+              }
+
+              {
+                selectedGuide.prayers && <div className="bg-white rounded-xl p-4 md:p-6 space-y-4 mb-6">
+                  <p className="font-bold text-2xl font-[CormorantGaramond] text-[#12100EE5] mb-3">
+                    {
+                      selectedGuide.titlePrayer ? selectedGuide.titlePrayer : "Full List of Dhikr & Prayers"
+                    }
+                  </p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
+                    {selectedGuide.prayers?.map((prayer, i) => (
+                      <div
+                        key={`${prayer.title}-${i}`}
+                        className="
+                          flex
+                          items-start
+                          gap-2
+                          pb-3
+                          pt-4
+                          px-3
+                          md:pt-6
+                          md:pb-7
+                          md:px-6
+                          bg-white
+                          border
+                          border-[#0D7330]
+                          rounded-[10px]
                       "
                     >
-                      <img src={CheckCircle} alt="CheckCircle" className="opacity-[.5]" />
-                      <div>
-                        <p className="text-[#12100EE5]">{prayer.title}</p>
-                        <p className="text-xs text-[#12100EB2] mt-2 leading-relaxed">{prayer.desc}</p>
+                      <img src={CheckCircle} alt="CheckCircle" loading="lazy" decoding="async" className="opacity-[.5]" />
+                        <div>
+                          <p className="text-[#12100EE5]">{prayer.title}</p>
+                          {
+                            typeof prayer.desc == "string" && <p className="text-xs text-[#12100EB2] mt-2 leading-relaxed">
+                              {prayer.desc}
+                            </p>
+                          }
+                          {
+                            typeof prayer.desc == "object" && <ul className="ml-5">
+                              {
+                                prayer.desc.map((item, index) => (
+                                  <li key={`prayerdesc-${index}`} className="text-xs text-[#12100EB2] mt-2 leading-relaxed list-disc">
+                                    {item}
+                                  </li>
+                                ))
+                              }
+                            </ul>
+                          }
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
-              </div>
+              }
+
+              {
+                selectedGuide.sectionQuotes && (
+                  <div className="bg-white rounded-xl p-4 md:p-6 space-y-4 mb-6">
+                    <p className="font-bold text-lg md:text-2xl font-[CormorantGaramond] text-[#12100EE5]">
+                      {selectedGuide.sectionQuotes.title}
+                    </p>
+                    {
+                      selectedGuide.sectionQuotes.desc && <div className="text-base">
+                        {selectedGuide.sectionQuotes.desc}
+                      </div>
+                    }
+                    <div 
+                      className={`
+                        grid
+                        grid-cols-1
+                        ${selectedGuide.sectionQuotes.quotes?.length >= 3 ? "md:grid-cols-3" : "md:grid-cols-2"}
+                        gap-3
+                        md:gap-4
+                      `}
+                    >
+                      {selectedGuide.sectionQuotes.quotes?.map((quotes, i) => (
+                        <div
+                          key={`${quotes.title}-${i}`}
+                          className="
+                            text-center
+                            content-center
+                            p-4
+                            bg-white
+                            border
+                            border-[#0D7330]
+                            rounded-[10px]
+                          "
+                        >
+                          <p className="text-[#12100EE5]">{quotes.title}</p>
+                            <p
+                              className="text-sm text-[#12100EB2] mt-2 leading-relaxed"
+                              style={{ whiteSpace: "pre-line" }}
+                            >
+                              {quotes.desc}
+                            </p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )
+              }
+
+              {
+                selectedGuide.sectionBottom && <div className="bg-white rounded-xl p-3 md:p-6 space-y-3 mb-6">
+                  <p className="font-bold text-lg md:text-2xl font-[CormorantGaramond] text-[#12100EE5]">
+                    {selectedGuide.sectionBottom.title}
+                  </p>
+                  <p className="text-base text-[#12100EE5]" style={{ whiteSpace: "pre-line" }}>
+                    {selectedGuide.sectionBottom.desc}
+                  </p>
+                </div>
+              }
 
               <p className="text-center text-xs md:text-sm text-[#12100EE5]">
-                May this remembrance be a source of light, tranquility, and mercy for the soul of the departed.
+                {
+                  selectedGuide.footer ? selectedGuide.footer : "May this remembrance be a source of light, tranquility, and mercy for the soul of the departed."
+                }
               </p>
             </div>
           </div>

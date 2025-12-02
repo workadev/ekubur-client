@@ -89,7 +89,7 @@ function SectionPackage() {
                   <ul className="space-y-4">
                     {pkg.items.map((item, idx) => (
                       <li key={idx} className="flex items-start gap-3">
-                        <img src={imgCheck} alt="imgCheck" className="w-5 h-5 mt-0.5" />
+                        <img src={imgCheck} alt="imgCheck" loading="lazy" decoding="async" className="w-5 h-5 mt-0.5" />
                         <span className="text-gray-700">{item}</span>
                       </li>
                     ))}
