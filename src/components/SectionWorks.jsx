@@ -22,7 +22,7 @@ export default function HowWeWorks() {
   ];
 
   return (
-    <section className="w-full bg-white">
+    <section id="process" className="w-full bg-white">
       <div className="py-10 px-6 md:py-24 md:px-24 rounded-t-3xl bg-[#0D733014]">
         <h1 className="text-[38px] md:text-[46px] font-[CormorantGaramond] font-bold text-center md:text-left">
           How We Works

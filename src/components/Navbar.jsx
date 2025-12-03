@@ -1,14 +1,29 @@
-import { Link } from "react-router-dom";
 import ekuburLogo from "../assets/images/ekubur-logo.svg";
 import menuLine from "../assets/images/icons/menu-line.svg";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
   const buttonRef = useRef(null);
 
-  const menuItems = ["About Us", "Services", "Contact"];
+  const menuItems = [
+    { label: "About Us", target: "about" },
+    { label: "Services", target: "services" },
+    { label: "Process", target: "process" },
+    { label: "Packages", target: "packages" },
+    { label: "Guides", target: "guides" },
+    { label: "Testimonials", target: "testimonials" },
+    { label: "Contact", target: "contact" },
+  ];
+
+  const handleScroll = useCallback((target) => {
+    const section = document.getElementById(target);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      setOpen(false);
+    }
+  }, []);
 
   // Detect click outside
   useEffect(() => {
@@ -32,11 +47,15 @@ function Navbar() {
       <img src={ekuburLogo} alt="ekuburLogo" className="h-[68px]" />
 
       <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
-        {menuItems.map((item) => (
-          <li key={item}>
-            <Link to={"/feature"} className="hover:text-[#0D7330]">
-              {item}
-            </Link>
+        {menuItems.map(({ label, target }) => (
+          <li key={target}>
+            <button
+              type="button"
+              onClick={() => handleScroll(target)}
+              className="hover:text-[#0D7330] transition-colors"
+            >
+              {label}
+            </button>
           </li>
         ))}
       </ul>
@@ -55,15 +74,16 @@ function Navbar() {
           className={`absolute right-0 overflow-hidden bg-white shadow-xl transition-all duration-500 ${open ? "max-h-96" : "max-h-0"}`}
         >
           <nav className="flex flex-col px-6 py-4 gap-4">
-            {menuItems.map((item, index) => (
-              <a
-                key={item}
-                href="#"
+            {menuItems.map(({ label, target }, index) => (
+              <button
+                type="button"
+                key={target}
+                onClick={() => handleScroll(target)}
                 style={{ animationDelay: `${0.15 * index}s` }}
-                className={`text-[#0D7330] text-sm animate-slideDown min-w-max`}
+                className="text-left text-[#0D7330] text-sm animate-slideDown min-w-max"
               >
-                {item}
-              </a>
+                {label}
+              </button>
             ))}
           </nav>
         </div>

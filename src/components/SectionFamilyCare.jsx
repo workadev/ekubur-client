@@ -1,6 +1,6 @@
 function SectionFamilyCare() {
   return (
-    <section className="bg-[#E6F3EA] py-10 px-6 md:py-16 md:px-24 text-center">
+    <section id="about" className="bg-[#E6F3EA] py-10 px-6 md:py-16 md:px-24 text-center">
       <h1 className="font-[CormorantGaramond] text-[38px] md:text-[46px] font-bold">
         Guiding Families with Faith and Care
       </h1>

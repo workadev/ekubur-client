@@ -234,7 +234,7 @@ and steadfastness upon truth.”`
   };
 
   return (
-    <section className="bg-white">
+    <section id="guides" className="bg-white">
       <div className="bg-[#E6F3EA] py-10 px-6 md:py-24 md:px-24 rounded-t-3xl">
         <h1 className="text-[38px] md:text-[46px] font-[CormorantGaramond] font-bold text-center md:text-left">
           Funeral Guides & Islamic Duʿā

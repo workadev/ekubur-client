@@ -58,7 +58,7 @@ function SectionPackage() {
   ];
 
   return (
-    <section className="bg-white">
+    <section id="packages" className="bg-white">
       <div className="py-10 px-6 md:py-24 md:px-24">
         <h1 className="text-[38px] md:text-[46px] font-[CormorantGaramond] font-bold text-center">
           Choose a Funeral Package

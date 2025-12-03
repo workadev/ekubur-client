@@ -53,7 +53,7 @@ function SectionTestimoni() {
   }, []);
 
   return (
-    <section className="py-6 md:py-15 bg-[#E6F3EA]">
+    <section id="testimonials" className="py-6 md:py-15 bg-[#E6F3EA]">
       <div className="justify-items-center mb-8 px-6">
         <h1 className="font-[CormorantGaramond] font-bold text-[46px] text-center">
           Families Who Trusted Us

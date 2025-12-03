@@ -30,7 +30,7 @@ function SectionBanner() {
   const goToSlide = (index) => setCurrent(index);
 
   return (
-    <section className="relative w-full h-[79vh] overflow-hidden bg-[#F7F7F9]">
+    <section id="home" className="relative w-full h-[79vh] overflow-hidden bg-[#F7F7F9]">
       {/* Wrapper for slides */}
       <div
         className="flex transition-transform duration-1000 ease-in-out"

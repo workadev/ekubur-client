@@ -1,7 +1,7 @@
 import imgAmbulance from "../assets/images/ambulance.jpg";
 import imgFlower from "../assets/images/flower.jpg";
 import imgMosque from "../assets/images/mosque.jpg";
-import imgRip from "../assets/images/rip.jpg";
+import imgRip from "../assets/images/rip.jpeg";
 
 function SectionJourney() {
   const services = [
@@ -36,7 +36,7 @@ function SectionJourney() {
   ]
 
   return (
-    <section className="bg-[#E6F3EA]">
+    <section id="services" className="bg-[#E6F3EA]">
       <div className="bg-white py-10 px-6 md:py-24 md:px-24 rounded-t-3xl">
         <h1 className="text-[38px] md:text-[46px] font-[CormorantGaramond] font-bold text-center md:text-left">
           Services That Accompany the Final Journey

@@ -1,6 +1,6 @@
 function SectionJoin() {
   return (
-    <section className="py-6 md:py-10 px-6 bg-[#16592E] text-center">
+    <section id="contact" className="py-6 md:py-10 px-6 bg-[#16592E] text-center">
       <h1 className="text-[38px] md:text-[46px] text-[#FAF9F6E5] font-[CormorantGaramond] font-bold">
         Join a Service That Brings Peace and Meaning
       </h1>
